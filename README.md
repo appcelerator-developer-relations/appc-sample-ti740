@@ -5,7 +5,7 @@ This sample is for showing the newest features introduced in Axway Titanium SDK 
 ## iOS
 On iOS there are several new features and improvements that are great. 
 
-- **New NSUserActivity APIs**: *eligibleForPrediction* and *persistentIdentifier* have been added. These provide a way for your user activities to be easily identified and suggested by Siri for shortcuts. You can see them in action in [`shortcut.js`](https://github.com/appcelerator-developer-relations/appc-sample-ti740/blob/master/app/styles/ios/shortcut.js).
+- **New NSUserActivity APIs**: *eligibleForPrediction* and *persistentIdentifier* have been added. These provide a way for your user activities to be easily identified and suggested by Siri for shortcuts. You can see them in action in [`shortcuts.js`](https://github.com/appcelerator-developer-relations/appc-sample-ti740/blob/master/app/styles/ios/shortcuts.js).
 - **New UserNotifications API**, or notification grouping has been added. iOS 12 introduces Notification Grouping, a feature that groups all of the notifications from a single app together in one bundle that prevents the Lock screen from becoming cluttered. How it works can be seen in the [`groupedNotifications.js`](https://github.com/appcelerator-developer-relations/appc-sample-ti740/blob/master/app/controllers/ios/groupedNotifications.js) controller.
 
 ### Password Autofill Improvements
