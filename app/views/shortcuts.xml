@@ -1,0 +1,11 @@
+<Alloy>
+  <Window>
+    <View class="wrapper">
+      <Label id="title" />
+      <Button id="identifierBtn" onClick="identifierBtnClk" />
+      <Button id="deleteOneBtn" onClick="deleteOneBtnClk" />
+      <Button id="deleteAllBtn" onClick="deleteAllBtnClk" />
+      <Label id="description" />
+    </View>
+  </Window>
+</Alloy>

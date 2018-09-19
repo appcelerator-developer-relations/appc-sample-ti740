@@ -1,0 +1,9 @@
+<Alloy>
+  <Window>
+    <View class="wrapper">
+      <Label id="title" />
+      <TextField id="code" />
+      <Label id="description" />
+    </View>
+  </Window>
+</Alloy>

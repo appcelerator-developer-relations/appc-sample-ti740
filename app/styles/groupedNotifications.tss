@@ -1,0 +1,29 @@
+'Label': {
+  left: 20,
+  right: 20,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+'.wrapper': {
+  height: Ti.UI.SIZE,
+  top: 0
+}
+
+'#title': {
+  text: "Grouped Notifications",
+  top: 50
+}
+
+"#btn": {
+  title: 'Schedule Notification',
+  top: 100
+}
+
+'#description': {
+  text: "iOS 12 introduces Notification Grouping, a feature that groups all of the notifications from a single app together in one bundle that prevents the Lock screen from becoming cluttered.\nClick the button to receive several notifications and then address them in your notification center (notice the grouping!).",
+  top: 150,
+  font: {
+    fontStyle: 'italic',
+    fontSize: 14
+  }
+}

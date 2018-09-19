@@ -1,0 +1,39 @@
+'Label': {
+  left: 20,
+  right: 20,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+'.wrapper': {
+  height: Ti.UI.SIZE,
+  top: 0
+}
+
+'#title': {
+  text: "User Activities: Siri Shortcuts",
+  top: 50
+}
+
+"#identifierBtn": {
+  top: 100,
+  title: 'Persistent Identifier'
+}
+
+"#deleteOneBtn": {
+  top: 150,
+  title: 'Delete UserActivity for identifier'
+}
+
+"#deleteAllBtn": {
+  top: 200,
+  title: 'Delete All UserActivity'
+}
+
+'#description': {
+  text: "Setup:\n1. Make sure you configure your tiapp.xml.\n2. You can then create a shortcut in Settings -> Siri & Search to perform an action in your app.",
+  top: 250,
+  font: {
+    fontStyle: 'italic',
+    fontSize: 14
+  }
+}

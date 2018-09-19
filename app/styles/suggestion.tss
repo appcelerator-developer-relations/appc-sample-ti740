@@ -1,0 +1,43 @@
+'Label': {
+  left: 20,
+  right: 20,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+}
+
+'.wrapper': {
+  height: Ti.UI.SIZE,
+  top: 0
+}
+
+'#title': {
+  text: "Password suggestion",
+  top: 50
+}
+
+"#username": {
+  autofillType: Ti.UI.AUTOFILL_TYPE_USERNAME,
+  width: 300,
+  height: 40,
+  top: 100,
+  backgroundColor: '#ddd'
+}
+
+// PasswordMask must be set to true for suggestion to work.
+"#password": {
+  autofillType: Ti.UI.AUTOFILL_TYPE_NEW_PASSWORD,
+  passwordMask: true,
+  passwordRules: 'required: upper; required: lower; required: digit; max-consecutive: 2; minlength: 8;',
+  width: 300,
+  height: 40,
+  top: 150,
+  backgroundColor: '#ddd'
+}
+
+'#description': {
+  text: "Setup:\n1. The app ID used in your provisioning profile has to have associated domains enabled.\n2. Make sure you configure your tiapp.xml.\n3. Your website that you are logging into through the app must have an apple-app-site-association file in the root or in its .well-known directory.",
+  top: 200,
+  font: {
+    fontStyle: 'italic',
+    fontSize: 14
+  }
+}

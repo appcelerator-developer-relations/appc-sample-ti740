@@ -1,0 +1,15 @@
+<Alloy>
+  <NavigationWindow id="navWin" module="xp.ui">
+    <Window id="container">
+      <ListView onItemclick="handleItemClick">
+        <ListSection>
+          <ListItem title="Password Autofill" controller="autofill" />
+          <ListItem title="Password Suggestion" controller="suggestion" />
+          <ListItem title="One Time Code" controller="oneTimeCode" />
+          <ListItem title="Grouped Notifications" controller="groupedNotifications"  />
+          <ListItem title="Siri Shortcuts" controller="shortcuts" />
+        </ListSection>
+      </ListView>
+    </Window>
+  </NavigationWindow>
+</Alloy>

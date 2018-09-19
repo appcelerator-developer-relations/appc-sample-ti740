@@ -1,0 +1,9 @@
+<Alloy>
+  <Window>
+    <View class="wrapper">
+      <Label id="title" />
+      <Button id="btn" onClick="btnClk"/>
+      <Label id="description" />
+    </View>
+  </Window>
+</Alloy>
