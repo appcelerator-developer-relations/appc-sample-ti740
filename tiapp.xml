@@ -37,7 +37,7 @@
                 <!-- Must be defined for any user activities to work -->
                 <key>NSUserActivityTypes</key>
                 <array>
-                  <string>ccom.appcelerator.sample.ti740</string>
+                  <string>com.appcelerator.sample.ti740</string>
                 </array>
                 <key>UISupportedInterfaceOrientations~iphone</key>
                 <array>
